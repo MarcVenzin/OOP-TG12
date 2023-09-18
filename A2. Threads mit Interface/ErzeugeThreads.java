@@ -5,13 +5,13 @@ public class ErzeugeThreads {
         System.out.println("Erzeuge Thread gestartet");
 
         //Thread Objekt erzeugen
-        meinThread a = new meinThread("a", 30);
-        meinThread x = new meinThread("x", 100);
+        meinThread b = new meinThread("b", 30);
+        meinThread z = new meinThread("z", 100);
     
 
         //Thread starten 
-        a.start();
-        x.start();
+        b.start();
+        z.start();
 
         System.out.println("Main Thread zuende");
     }
